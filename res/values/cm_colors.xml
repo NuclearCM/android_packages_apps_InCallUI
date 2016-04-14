@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!--
+     Copyright (C) 2016 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,11 +15,12 @@
      limitations under the License.
 -->
 
-<!-- In-call Phone UI; see InCallActivity.java. -->
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/black"
-    android:id="@+id/main" >
-</android.support.design.widget.CoordinatorLayout>
+<resources>
+    <color name="videocall_handoff_item_text_color">#de000000</color>
+    <color name="vidoecall_handoff_default_video_call_color">#8a000000</color>
+
+    <color name="snackbar_action_text_color">@color/dialer_theme_color</color>
+
+    <color name="contact_info_spam_info_text_color">#ff402c</color>
+    <color name="contact_info_attribution_text_color">#ffffff</color>
+</resources>
